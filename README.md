@@ -11,6 +11,9 @@ pkg install -y git wget
 4. Download the APKTool package and wrapper script by running the command:
 git clone https://github.com/rohitswami876604/apktool-in-termux.git
 
+5. Change APKTool package name:
+mv apktool_2.7.0.jar apktool.jar
+
 5. Make the downloaded file executable using the command:
 chmod +x apktool.jar
 
@@ -23,3 +26,12 @@ mv apktool.jar $PREFIX/bin/
 
 That's it! You have successfully installed APKTool in Termux. You can now use it to decompile and recompile APK files. To verify the installation, you can run the following command to display the APKTool version:
 apktool --version
+## INSTALLATION [Termux] :
+* `pkg update`
+* `pkg install -y git wget`
+* `git clone https://github.com/rohitswami876604/apktool-in-termux.git`
+* `mv apktool_2.7.0.jar apktool.jar`
+* `chmod +x apktool.jar`
+* `chmod +x apktool`
+* `mv apktool $PREFIX/bin/`
+* `mv apktool.jar $PREFIX/bin/`
