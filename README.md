@@ -1,4 +1,5 @@
-![Blue Modern Motivational Podcast Youtube Thumbnail](https://github.com/rohitswami876604/apktool-in-termux/assets/120408793/d675d133-86e1-4539-969a-33579bfef18d)
+![Blue Modern Motivational Podcast Youtube Thumbnail](https://github.com/rohitswami876604/apktool-in-termux/assets/120408793/511f39f9-b1f3-44e0-8091-db458808bae0)
+
 
 ### Apktool-termux
 
@@ -11,13 +12,15 @@
 ### REQUIREMENTS :
 
 * Java
-## INSTALLATION [Termux] :
-* `pkg update`
+## INSTALLATION [IN Termux] :
+* `pkg update && pkg upgrade`
 * `pkg install -y git wget`
-* `git clone https://github.com/rohitswami876604/apktool-in-termux.git`
+* `wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool`
+* `chmod +x apktool`
+* `wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.7.0.jar`
 * `mv apktool_2.7.0.jar apktool.jar`
 * `chmod +x apktool.jar`
-* `chmod +x apktool`
+* `ls`
 * `mv apktool $PREFIX/bin/`
 * `mv apktool.jar $PREFIX/bin/`
 * `apktool --version`
